@@ -47,8 +47,7 @@ else
 fi
 
 # Generate random number
-#secret_number=$((RANDOM % 1000 + 1))
-secret_number=500
+secret_number=$((RANDOM % 1000 + 1))
 GUESSES=0
 
 # Game loop
